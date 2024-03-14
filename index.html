@@ -6,9 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <style>
+    body {
+        background-color: #355e3b;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*.header {
+    /* Flexbox stuff
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }*/
     .hero-inner {
+    /* Sizing */
     height: 100vh;
     width: 100vw;
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Background styles */
     background-image: url(tree-and-pavillion.jpg);
     background-size: cover;
     background-position: center center;
@@ -18,7 +37,16 @@
 </style>
 
 <body>
-<h1>Page Lawn Care</h1>
+<div class="header">    
+    <h1>Page Lawn Care</h1>
+    <div class="social-links">
+        <a img src="icons8-phone-64.png" style="height:64px; width:64px;"><p>804-555-5555</p></a>
+        <a href="https://www.facebook.com/people/Page-Lawn-Care/100076338938716/"><img src="facebook-icon.png" style="height:50px; width:50px;"></a> 
+        
+    </div>
+    <h3>"Cheerful service caring for your lawns."</h3>
+</div>
+
 <section class="hero">
     <div class="hero-inner">
         
@@ -38,6 +66,8 @@
     <section><h2>Extra Services</h2>
         <p>We also offer extra seasonal services like Leaf Raking and collecting, Hedge and Tree Trimming, Aerate and Plant Grass Seed. These can all be added with other services or quoted separately.</p>
     </section>
+
+    <footer><p>(c) Page Lawn Care</p></footer>
     
 </main>
 
